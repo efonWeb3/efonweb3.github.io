@@ -1,0 +1,235 @@
+<!DOCTYPE html><html lang="zh-TW" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>第六章 囤比特币：如何管理私钥？ | EfonWeb3 ｜ 匯集財富底層邏輯</title><meta name="author" content="EfonWeb3"><meta name="copyright" content="EfonWeb3"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="视频链接：https:&#x2F;&#x2F;youtu.be&#x2F;Fsow1MUF5Vg  通过囤比特币实现财富自由，私钥管理是唯一需要掌握的技能。  通过前面几篇文章：  《比特币与理想主义》我们在参与一场社会实验，它存在失败的可能性，但是我们无怨无悔。 《下车太早只因愿景太小》这场实验的目标很大，如果一切顺利，比特币的价格可能会在20年后涨到1.6亿人民币。 《囤比特币：你离财富自由还有多远？》我们没有其他能耐，只">
+<meta property="og:type" content="article">
+<meta property="og:title" content="第六章 囤比特币：如何管理私钥？">
+<meta property="og:url" content="https://efonweb3.github.io/2025/06/21/2025-06-21_06_%E7%AC%AC%E5%85%AD%E7%AB%A0_%E5%9B%A4%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%9A%E5%A6%82%E4%BD%95%E7%AE%A1%E7%90%86%E7%A7%81%E9%92%A5%EF%BC%9F/index.html">
+<meta property="og:site_name" content="EfonWeb3 ｜ 匯集財富底層邏輯">
+<meta property="og:description" content="视频链接：https:&#x2F;&#x2F;youtu.be&#x2F;Fsow1MUF5Vg  通过囤比特币实现财富自由，私钥管理是唯一需要掌握的技能。  通过前面几篇文章：  《比特币与理想主义》我们在参与一场社会实验，它存在失败的可能性，但是我们无怨无悔。 《下车太早只因愿景太小》这场实验的目标很大，如果一切顺利，比特币的价格可能会在20年后涨到1.6亿人民币。 《囤比特币：你离财富自由还有多远？》我们没有其他能耐，只">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://efonweb3.github.io/img/butterfly-icon.png">
+<meta property="article:published_time" content="2025-06-20T22:31:28.000Z">
+<meta property="article:modified_time" content="2025-10-16T15:50:39.374Z">
+<meta property="article:author" content="EfonWeb3">
+<meta property="article:tag" content="AHR999">
+<meta property="article:tag" content="区块链">
+<meta property="article:tag" content="比特币">
+<meta property="article:tag" content="理财建议">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://efonweb3.github.io/img/butterfly-icon.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "第六章 囤比特币：如何管理私钥？",
+  "url": "https://efonweb3.github.io/2025/06/21/2025-06-21_06_%E7%AC%AC%E5%85%AD%E7%AB%A0_%E5%9B%A4%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%9A%E5%A6%82%E4%BD%95%E7%AE%A1%E7%90%86%E7%A7%81%E9%92%A5%EF%BC%9F/",
+  "image": "https://efonweb3.github.io/img/butterfly-icon.png",
+  "datePublished": "2025-06-20T22:31:28.000Z",
+  "dateModified": "2025-10-16T15:50:39.374Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "EfonWeb3",
+      "url": "https://efonweb3.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/EfonWeb3.jpg"><link rel="canonical" href="https://efonweb3.github.io/2025/06/21/2025-06-21_06_%E7%AC%AC%E5%85%AD%E7%AB%A0_%E5%9B%A4%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%9A%E5%A6%82%E4%BD%95%E7%AE%A1%E7%90%86%E7%A7%81%E9%92%A5%EF%BC%9F/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '複製成功',
+    error: '複製失敗',
+    noSupport: '瀏覽器不支援'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '剛剛',
+    min: '分鐘前',
+    hour: '小時前',
+    day: '天前',
+    month: '個月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.12.0/dist/infinitegrid.min.js',
+    buttonText: '載入更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '第六章 囤比特币：如何管理私钥？',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 8.0.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">30</div></a><a href="/tags/"><div class="headline">標籤</div><div class="length-num">9</div></a><a href="/categories/"><div class="headline">分類</div><div class="length-num">3</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><span> 分類</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><span> 標籤</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">EfonWeb3 ｜ 匯集財富底層邏輯</span></a><a class="nav-page-title" href="/"><span class="site-name">第六章 囤比特币：如何管理私钥？</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首頁</span></span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><span> 分類</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><span> 標籤</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">第六章 囤比特币：如何管理私钥？</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">發表於</span><time class="post-meta-date-created" datetime="2025-06-20T22:31:28.000Z" title="發表於 2025-06-21 06:31:28">2025-06-21</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新於</span><time class="post-meta-date-updated" datetime="2025-10-16T15:50:39.374Z" title="更新於 2025-10-16 23:50:39">2025-10-16</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%9B%A4%E6%AF%94%E7%89%B9%E5%B8%81/">囤比特币</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">瀏覽量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><p><strong>视频链接：</strong><a target="_blank" rel="noopener" href="https://youtu.be/Fsow1MUF5Vg">https://youtu.be/Fsow1MUF5Vg</a></p>
+<blockquote>
+<p>通过囤比特币实现财富自由，私钥管理是唯一需要掌握的技能。</p>
+</blockquote>
+<p>通过前面几篇文章：</p>
+<ul>
+<li>《比特币与理想主义》我们在参与一场社会实验，它存在失败的可能性，但是我们无怨无悔。</li>
+<li>《下车太早只因愿景太小》这场实验的目标很大，如果一切顺利，比特币的价格可能会在20年后涨到1.6亿人民币。</li>
+<li>《囤比特币：你离财富自由还有多远？》我们没有其他能耐，只能靠囤积比特币，并耐心地等待属于自己的财富自由。</li>
+<li>《囤比特币：冲动、孤独、无聊与矛盾》虽然会经历冲动、孤独、无聊和矛盾等心理考验，但是我们已经做好准备囤币。</li>
+<li>《囤比特币：手握私钥的快感》掌握私钥有点麻烦，但是我们仍然准备自己对自己负责。</li>
+</ul>
+<hr>
+<p>我们终于下定决心要自己掌握比特币私钥了，于是<strong>我们立刻就会面临下一个问题：如何管理私钥？</strong></p>
+<p>这个问题很重要，不过我原本是不准备回答的，因为如果你不能通过自己搜索找到问题的答案，那么你就不配拥有比特币。但是，因为问的人很多，最终我还是决定分享一些心得。</p>
+<p><strong>本文不会介绍详细的教程，也不会推荐任何钱包。</strong>这是因为比特币发展很快，各类钱包软件更新迭代也很快，教程也很快就会过时。如果你一定要教程，网上也是有的，虽然我也不知道它们是否过时了，你姑且可以尝试一下。</p>
+<ul>
+<li>《<a target="_blank" rel="noopener" href="https://www.8btc.com/article/47039">比特币冷钱包到底应该怎么做？</a>》</li>
+<li>《<a target="_blank" rel="noopener" href="https://www.8btc.com/article/21665">“比太钱包”用户体验报告</a>》</li>
+</ul>
+<p><strong>本文的重点是，分享私钥管理的一些原则，无论软件如何更新迭代，这些原则是永不过时。</strong></p>
+<h2 id="根据安全性需求分级管理私钥"><a href="#根据安全性需求分级管理私钥" class="headerlink" title="根据安全性需求分级管理私钥"></a>根据安全性需求分级管理私钥</h2><p>每个人对安全性的需求是不一样的，而同一个人在不同应用场景对安全性的需求也是不一样的。因此，<strong>不可能有一种通用的私钥管理方法适用于所有人或所有应用场景</strong>。</p>
+<p>另外，安全性与易用性通常是一对矛盾，任何私钥管理方案其实都是在安全性和易用性之间进行平衡和取舍。</p>
+<p>于是我们就需要分级管理私钥。<strong>对于普通比特币用户而言，通常分两级就够用了：高安全等级和低安全等级。</strong></p>
+<p>比如，你现在拥有10个比特币，其中9个准备长期持有，几年都不会动，另外1个需要经常拿出来使用。现在，你有三种方案可以选择：</p>
+<ul>
+<li>把10个比特币全部放在1个冷储存（安全）；</li>
+<li>把10个比特币全部放在1个热储存（易用）；</li>
+<li>把9个比特币放在冷储存（安全），把1个比特币放在热储存（易用）。</li>
+</ul>
+<p>第三种方案，就是分级管理，既保证安全又兼顾易用。第一种方案使用起来很不方便，第二种方案将那9个长期持有的币置于不必要的高风险之中。</p>
+<p><strong>由于我们是囤币用户，大部分币都要囤到10-20年之后，因此接下来，我只介绍在进行高安全等级私钥管理时的原则。</strong></p>
+<h2 id="管理私钥而不是管理钱包文件"><a href="#管理私钥而不是管理钱包文件" class="headerlink" title="管理私钥而不是管理钱包文件"></a>管理私钥而不是管理钱包文件</h2><p><strong>长期囤币，必须直接管理私钥。</strong>很多人虽然已经开始使用比特币，但是仍然不知道私钥为何物。关于私钥是什么，私钥和地址的关系是什么，请参考：</p>
+<ul>
+<li>《<a target="_blank" rel="noopener" href="https://8btc.com/article-1786-1.html">精通比特币 – 第4章 密钥、地址、钱包</a>》</li>
+<li>《<a target="_blank" rel="noopener" href="https://www.8btc.com/article/126232">比特币的私钥，公钥和地址是什么？</a>》</li>
+</ul>
+<p>在《囤比特币：手握私钥的快感》中，我简单讲述了我第一次制作冷钱包的方法，那时我还是小白，所以我在管理钱包文件。这个方案至今仍是安全的，但是我现在已经不用了。</p>
+<p><strong>为什么我们要直接管理私钥呢？</strong>因为软件迭代速度非常快，升级频繁，消亡也快。</p>
+<p>4年前，我们很多人用的是一款叫作 multibit 的钱包（<a target="_blank" rel="noopener" href="https://www.multibit.org/%EF%BC%89%EF%BC%8C%E7%8E%B0%E5%9C%A8%E8%BF%99%E6%AC%BE%E9%92%B1%E5%8C%85%E5%B7%B2%E7%BB%8F%E5%81%9C%E6%AD%A2%E6%9B%B4%E6%96%B0%E4%BA%86%E3%80%82%E5%A6%82%E6%9E%9C%E4%BD%A0%E5%BD%93%E5%B9%B4%E5%AD%98%E7%9A%84%E6%98%AF">https://www.multibit.org/），现在这款钱包已经停止更新了。如果你当年存的是</a> multibit 的钱包文件，现在你就打不开这个文件了。就算你当时也备份了软件，仍然存在风险，因为软件长时间没人维护，漏洞也没人修复。</p>
+<p>没有人能预测10年后的景象，也没有人能知道我们今天使用的钱包能否活到10年后。也没有人知道这10年间，比特币还会发生多少次分叉。</p>
+<p>所谓得私钥者得天下，这天下也包括分叉币的天下。你在高点卖掉你不看好的分叉币，既可以获利，又可以让该分叉的操纵者痛不欲生。</p>
+<p>所以，请直接管理私钥，而不是钱包文件。事实上，你甚至都不需要一个钱包，你需要的只是一个能随机生成地址和私钥的工具。这个话题要稍微高级一点，大家有空可以自学，其实也不麻烦。</p>
+<h2 id="冷私钥管理的基本方案"><a href="#冷私钥管理的基本方案" class="headerlink" title="冷私钥管理的基本方案"></a>冷私钥管理的基本方案</h2><p>制作冷私钥的步骤如下：准备设备（废旧手机或废旧笔记本电脑），下载软件（钱包等能离线生成地址和私钥的工具），断网（甚至可以把网卡毁掉），离线生成地址和私钥，加密并备份私钥（直接存文本并加密）。</p>
+<p>完成冷私钥制作之后，你只需要向该私钥对应的地址转账比特币，并使用其它联网设备在区块链浏览器中查询该地址的交易记录和余额即可。</p>
+<p>至于选择哪个钱包工具，可以参考（<a target="_blank" rel="noopener" href="https://bitcoin.org/en/choose-your-wallet%EF%BC%89%EF%BC%8C%E5%AE%83%E5%AF%B9%E6%AF%8F%E4%B8%AA%E9%92%B1%E5%8C%85%E9%83%BD%E6%9C%89%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E4%BB%8B%E7%BB%8D%EF%BC%9A">https://bitcoin.org/en/choose-your-wallet），它对每个钱包都有一个简单的介绍：</a></p>
+<p><img src="/2025/06/21/2025-06-21_06_第六章_囤比特币：如何管理私钥？/03.jpeg" alt="03"></p>
+<p>图1. Bitcoin Core 钱包简介</p>
+<p><strong>最重要的是第一条，一定要选择“Control over your money”的钱包，凡是第一条不是这个的钱包都不要用。</strong></p>
+<h2 id="实战之前一定要测试"><a href="#实战之前一定要测试" class="headerlink" title="实战之前一定要测试"></a>实战之前一定要测试</h2><p>由于冷储存的币一般数额都比较大，一旦出错，损失也非常高。所以，无论你选择了什么方案，你都需要先使用少量的币，进行测试。测试也是加深理解的过程，通过反复测试你还可以不断地改进方案。直到你非常确定，方案安全可靠，就可以正式使用了。</p>
+<h2 id="需要几个备份？"><a href="#需要几个备份？" class="headerlink" title="需要几个备份？"></a>需要几个备份？</h2><p>备份少了很危险，因为私钥一旦丢失，比特币就全部损失了。备份多了也很危险，因为备份越多，私钥越容易暴露。<strong>经过我个人的长期摸索，3个备份应该最合适。这3个备份在形式要有差异，储存地点也要分散。</strong></p>
+<p>电子备份和纸质备份各有优劣。电子产品长时间放置，可能会出现故障而打不开。纸质版虽然不会出现故障，但可能墨迹会消失或者模糊。<strong>建议：2个电子版+1个纸质版。</strong></p>
+<p>如果3个备份放置在同一个地点，一旦发生火灾，或者遭遇盗贼，很可能一锅端了。<strong>建议：3个备份分别存在3个安全的地点。</strong>这一点很难，既要足够分散，又要足够安全。</p>
+<h2 id="私钥是否需要加密？"><a href="#私钥是否需要加密？" class="headerlink" title="私钥是否需要加密？"></a>私钥是否需要加密？</h2><p>私钥加密有风险，因为一旦忘记密码就全部损失了。私钥不加密也有风险，因为一旦被盗就立刻损失了。<strong>建议：使用自己最常用、记得最清楚的密码加密。</strong></p>
+<p>你不必担心这密码不够强不够安全。<strong>加密的目的是防贼，密码并不需要特别复杂，能拖延足够时间即可。</strong>比如：某天你发现家里被盗了，由于盗贼破解密码需要时间，这样就为你争取了时间，去用其它备份把币转移了。加密工具有很多选择，即使使用压缩软件自带的加密也够用。</p>
+<h2 id="需要管理多少私钥？"><a href="#需要管理多少私钥？" class="headerlink" title="需要管理多少私钥？"></a>需要管理多少私钥？</h2><p><strong>随意。</strong>你既可以把币都存在1个地址，这样管理1个私钥就够了；也可以把币分散到N个地址，管理N个私钥。管理难度本质上没有差别，多1个私钥也就多1串字符。</p>
+<p><strong>把币分散到N个地址有优点。</strong>比如，你有9个比特币，分散到9个地址。某天你需要使用&lt;1个币时，你可以直接把某1个私钥导入热钱包使用，而完全不影响其它8个私钥的安全性。对于囤比特币而言，大量卖币的可能性不存在，所以推荐把比特币分散到多个地址中。</p>
+<h2 id="防范自己出意外"><a href="#防范自己出意外" class="headerlink" title="防范自己出意外"></a>防范自己出意外</h2><p>什么叫囤在自己手里？有且仅有你掌握了能够动用这些比特币的私钥。<strong>这意味着一旦你发生意外，你的比特币也跟着全部损失了。</strong>这就是比特币的特性，真正属于你个人的财富，不能与他人分享。</p>
+<p>但是，<strong>你仍然可以选择把私钥备份交给一个你百分之百信任的人。</strong>你需要特别叮嘱他，只有你出意外，他才能动私钥。</p>
+<p>为什么呢？<strong>因为私钥管理是有难度的，共用私钥最终极有可能导致信任关系破裂。</strong>比如，某天你发现比特币被盗了，可能是你的疏忽，但你并不知道，你就会开始怀疑对方。当然，也有可能是对方背叛了你，但不承认。总而言之，这事就说不清了。</p>
+<p>所以，<strong>对方在保管你的私钥时，需要非常明确的知道，他所承担的风险和责任。反之亦然，如果你获得别人的信任，帮他保管他的私钥，你也需要非常明确的知道，你所承担的风险和责任。</strong></p>
+<p>而且，一旦你决定要把私钥备份交给他人，<strong>你不仅仅需要绝对信任对方，也需要做好心理准备，万一被背叛了，你也无怨无悔。</strong>否则，你就不要把私钥交给任何人。但这并不代表，你不能把比特币分享给他人，你可以把比特币转给他人，让他自己保管自己的私钥。</p>
+<h2 id="还是觉得太麻烦？"><a href="#还是觉得太麻烦？" class="headerlink" title="还是觉得太麻烦？"></a>还是觉得太麻烦？</h2><p><strong>那你就用硬件钱包吧，要买就买2个，加上1个种子卡，正好3个备份，有电子版有纸质版。</strong></p>
+<p>硬件钱包最大的风险是硬件被人做手脚，尤其是在运货阶段。曾经就有人购买二手硬件钱包，结果被人做了手脚，导致丢币。因此，请原厂下单，收货的时候仔细检查包装和封条是否完好，收到之后，先少存点币玩上个半年，币量逐步增加。</p>
+<p>你仍然需要明白，<strong>硬件钱包还是没有直接管理冷私钥安全。但是，对于一个啥都不想学的人来说，已经是最好的方案了。</strong></p>
+<hr>
+<h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>刚开始，我是拒绝写这篇文章的。因为我始终认为，如果连这都需要我教，可能也不适合比特币吧。看起来，财富自由的吸引力还是不够大嘛。</p>
+<p>但是，问这类问题的人又很多。我也曾经小白过，也很希望得到前辈们的指点，这样就不用走弯路了。我能理解大家的心情，于是就硬着头皮写了。或许还是没有大家想象的那么详尽，真的很抱歉。</p>
+<p>我已经很长时间没有使用过钱包软件了，所以我也不知道该如何推荐。除了电脑上还保留1个热钱包，用的是几年前版本的Electrum，存了点币以备不时之需，其它所有钱包全部卸载了。</p>
+<p><strong>事实上，囤比特币也不需要任何钱包软件，你们终究会明白的。</strong></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://efonweb3.github.io">EfonWeb3</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章連結: </span><span class="post-copyright-info"><a href="https://efonweb3.github.io/2025/06/21/2025-06-21_06_%E7%AC%AC%E5%85%AD%E7%AB%A0_%E5%9B%A4%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%9A%E5%A6%82%E4%BD%95%E7%AE%A1%E7%90%86%E7%A7%81%E9%92%A5%EF%BC%9F/">https://efonweb3.github.io/2025/06/21/2025-06-21_06_%E7%AC%AC%E5%85%AD%E7%AB%A0_%E5%9B%A4%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%9A%E5%A6%82%E4%BD%95%E7%AE%A1%E7%90%86%E7%A7%81%E9%92%A5%EF%BC%9F/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版權聲明: </span><span class="post-copyright-info">本部落格所有文章除特別聲明外，均採用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 授權協議。轉載請註明來源 <a href="https://efonweb3.github.io" target="_blank">EfonWeb3 ｜ 匯集財富底層邏輯</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%AF%94%E7%89%B9%E5%B8%81/">比特币</a><a class="post-meta__tags" href="/tags/AHR999/">AHR999</a><a class="post-meta__tags" href="/tags/%E7%90%86%E8%B4%A2%E5%BB%BA%E8%AE%AE/">理财建议</a><a class="post-meta__tags" href="/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/">区块链</a></div><div class="post-share"><div class="social-share" data-image="/img/butterfly-icon.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2025/06/21/2025-06-21_07_%E7%AC%AC%E4%B8%83%E7%AB%A0_%E5%9B%A4%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%9A%E5%9F%BA%E6%9C%AC%E4%BB%B7%E6%A0%BC%E6%A8%A1%E5%9E%8B/" title="第七章 囤比特币：基本价格模型"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">第七章 囤比特币：基本价格模型</div></div><div class="info-2"><div class="info-item-1">视频链接：https://youtu.be/AW2EUQxtGaQ  比特币的价格到底由什么决定？为什么产量减半会导致比特币价格暴涨？  现在，我们已经达到了囤比特币的入门标准：明确了比特币的目标，愿意参与实验，自愿承担风险，并开始利用比特币储值，自己掌握比特币私钥，并进行冷储存。 那么，接下来，我们什么都不用做了，等着就行了。 但是，傻傻的等确实太闲了，所以我们继续学点东西，本文分享我个人理解的比特币价格模型。需要指出的是，我并非经济学科班出身，所以你可以认为我是民科，欢迎批评指正。 首先，我们看看比特币过去的价格走势（图1）。  图1. 比特币历史价格拟合和未来价格预测（数据源：bitcoinity） 这个走势完全可以用指数级上涨来拟合，并且根据拟合结果，预测20年后的比特币价格应该在700万美元，即5000万人民币左右。与我们在《下车太早只因愿景太小》中预测的基本一致。  考虑到比特币储值相对于黄金、货币和不动产的绝对优势，每个比特币将涨到750万美元，折合5000万人民币。  那么到底比特币价格的根源在哪里？答案是：你。 我们可以简单把比特币市场分为3类参与者：囤币、矿工...</div></div></div></a><a class="pagination-related" href="/2025/06/21/2025-06-21_05_%E7%AC%AC%E4%BA%94%E7%AB%A0_%E5%9B%A4%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%9A%E6%89%8B%E6%8F%A1%E7%A7%81%E9%92%A5%E7%9A%84%E5%BF%AB%E6%84%9F/" title="第五章 囤比特币：手握私钥的快感"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">第五章 囤比特币：手握私钥的快感</div></div><div class="info-2"><div class="info-item-1">**视频链接：https://youtu.be/jrEoizaNQms  把财富储存在一串“虚幻的”私钥字符串上，是人类储值方式的重大革命。  如果你认同前面四篇文章的观点：  《比特币与理想主义》我们在参与一场社会实验，它存在失败的可能性，但是我们无怨无悔。 《下车太早只因愿景太小》这场实验的目标很大，如果一切顺利，比特币的价格可能会在20年后涨到1.6亿人民币。 《囤比特币：你离财富自由还有多远？》我们没有其他能耐，只能靠囤积比特币，并耐心地等待属于自己的财富自由。 《囤比特币：冲动、孤独、无聊与矛盾》虽然会经历冲动、孤独、无聊和矛盾等心理考验，但是我们已经做好了准备囤币。  那么接下来，你会遇到一个问题：你到底应该把比特币储存在哪里？ 如果我们囤积黄金，我们可能有两种方式。一种是在银行租个保险柜，把黄金存进去；另一种是在家里买个保险柜，把黄金存进去。答案可能需要视情况而定。 但是，对于囤比特币而言，答案永远只有一个——囤在自己手里。 什么叫囤在自己手里？有且仅有你掌握了能够动用这些比特币的私钥。 需要特别说明的是：  此处特指囤币，而且是长期囤币。如果你只是想炒币，那么你可...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相關推薦</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2025/06/21/2025-06-21_00_%E5%BA%8F%E7%AB%A0_%E5%9B%A4%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%9A%E7%9F%A5%E4%B9%8B%E9%9D%9E%E9%9A%BE%EF%BC%8C%E8%A1%8C%E4%B9%8B%E4%B8%8D%E6%98%93/" title="序章 囤比特币：知之非难，行之不易"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-06-21</div><div class="info-item-2">序章 囤比特币：知之非难，行之不易</div></div><div class="info-2"><div class="info-item-1">视频链接：https://youtu.be/8VkEFoXtf1w  决定把《囤比特币》写成一个完整的、永不过时的系列，本文是序。  2018年的国庆节，阳光明媚，秋高气爽。我最喜欢北京的秋天，原本这是个应该进行户外活动的好日子，我早早的起床。却临时决定宅在家中，写点东西。 最近一段时间，我把全部业余时间都用来写《囤比特币》系列了。 写作自然希望有人读。很庆幸，《囤比特币》系列确实有读者。咱们真的跟四年前不一样了，那时我写的文章最多三五条评论。 当然，也不能因为有人愿意读，我就去写，10万+的垃圾文章比比皆是，我并不希望再为这个世界多创造垃圾。我必须要有实实在在的干货可以分享。很庆幸，我确实有。谈起囤比特币这个话题，我就思如泉涌。 原本已经不写关于比特币的文章很久了。机缘巧合写了一篇回忆的文章《四年一个轮回，不光有世界杯，还有比特币》，居然获得了25万的阅读量（我感觉微博数据有水分）。我没有做过任何推广，这个阅读量大大出乎了我的预料。表面上看，现在和四年前都是熊市，但是形势或许真的与四年前不一样了，至少关注度是不可同日而语的。 最近，我花了点时间重新关注比特币圈子里的动态，感觉也...</div></div></div></a><a class="pagination-related" href="/2025/06/21/2025-06-21_00_%E5%9B%A4%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%9A%E5%9B%A4%E5%B8%81%E6%8C%87%E5%8D%97/" title="囤比特币：囤币指南"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-06-21</div><div class="info-item-2">囤比特币：囤币指南</div></div><div class="info-2"><div class="info-item-1">《囤比特币》分享九神ahr999在过去几年囤比特币过程中的思考和经验。写它的目的不是宣传比特币，而是帮助那些已经准备囤比特币的人。是否看好比特币很大程度上与价值观有关，无意改变任何人的价值观。  序章：  《知之非难，行之不易》为什么要写这个系列。   入门：  《比特币与理想主义》我们在参与一场社会实验，它存在失败的可能性，但是我们无怨无悔。 《下车太早只因愿景太小》这场实验的目标很大，如果一切顺利，比特币的价格可能会在20年后涨到1.6亿人民币。 《囤比特币：你离财富自由还有多远？》我们没有其他能耐，只能靠囤积比特币，并耐心地等待属于自己的财富自由。 《囤比特币：冲动、孤独、无聊与矛盾》虽然会经历冲动、孤独、无聊和矛盾等心理考验，但是我们已经做好准备囤币。 《囤比特币：手握私钥的快感》虽然掌握私钥有点麻烦，但是我们仍然准备自己对自己负责。 《囤比特币：如何管理私钥？》管理私钥其实并没有想象的那么麻烦，但我们需要把握好几个原则。   进阶：  《囤比特币：基本价格模型》囤币是比特币一切价值得来源，长期囤币者关心的去中心化和安全性是比特币首先要保证的特性。每次产量减半，囤币需求不...</div></div></div></a><a class="pagination-related" href="/2025/06/21/2025-06-21_01_%E7%AC%AC%E4%B8%80%E7%AB%A0_%E5%9B%A4%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%9A%E6%AF%94%E7%89%B9%E5%B8%81%E4%B8%8E%E7%90%86%E6%83%B3%E4%B8%BB%E4%B9%89/" title="第一章 囤比特币：比特币与理想主义"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-06-21</div><div class="info-item-2">第一章 囤比特币：比特币与理想主义</div></div><div class="info-2"><div class="info-item-1">视频链接：https://youtu.be/2Bf1VGSLZcs  比特币是人类历史上第一次，用技术手段实现了私有财产神圣不可侵犯。—— 李笑来  在真正读懂比特币白皮书的瞬间，我的感觉是无法用文字来形容的。充满了惊叹、兴奋与懊悔。惊叹于中本聪巧夺天工的设计，兴奋于比特币即将引发的社会巨变，懊悔于自己竟然没有在第一次听到这个词的时候就来读白皮书。 我是个理想主义者，我的初衷其实是想参与这场史无前例的社会实验。但也不可否认，比特币价格的暴涨是当初驱使我阅读白皮书的主要动力。 没想到的是，参与这场社会实验也改变了我的认知，我的人性也遭受到了巨大的考验。人性是脆弱的，往往经不起考验。有那么一段时间，我一度对自己产生了怀疑，因为我本身陷入了巨大的矛盾之中。 我近乎疯狂的囤积着比特币，这到底是因为理想呢，还是因为贪婪呢？我已经分不清了。一方面，我仍然坚持着理想，或许实验最终会失败，但我无怨无悔；另一方面，我如此坚信它会成功，于是囤得越多，财富自由就会越快，我完全控制不住自己囤币的冲动。 最终，我不得不给自己订下一条死规则——不卖币。不卖币就意味着，我赚不到法币，也就意味着我的投入跟这个实...</div></div></div></a><a class="pagination-related" href="/2025/06/21/2025-06-21_02_%E7%AC%AC%E4%BA%8C%E7%AB%A0_%E5%9B%A4%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%9A%E4%B8%8B%E8%BD%A6%E5%A4%AA%E6%97%A9%E5%8F%AA%E5%9B%A0%E6%84%BF%E6%99%AF%E5%A4%AA%E5%B0%8F/" title="第二章 囤比特币：下车太早只因愿景太小"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-06-21</div><div class="info-item-2">第二章 囤比特币：下车太早只因愿景太小</div></div><div class="info-2"><div class="info-item-1">视频链接：https://youtu.be/kB4cgzqWdfk  比特币十年，有的人来了又走了，有的人走了又来了，有的人来了就不走了，有的人走了就不来了。  绝大多数比特币早期玩家都已经下车，还有很多人眼睁睁看着比特币暴涨就是没上车。这对我们来说是好消息，因为如果他们现在都在车上，币价还能是几万块吗？ 犹犹豫豫不上车，迫不及待要下车，原因或许是多方面的，但最主要的，还是因为心中的愿景不够大。 愿景决定了视野，视野决定了行动。  比特币价格 10 元时，他们说，太贵了。  比特币价格 100 元时，他们说，太贵了。  比特币价格 1000 元时，他们说，太贵了。  比特币价格 10000 元时，他们说，太贵了。   比特币似乎永远都太贵，他们永远不舍得买。  比特币价格 10 元时，我们说，它还早。  比特币价格 100 元时，我们说，它还早。  比特币价格 1000 元时，我们说，它还早。  比特币价格 10000 元时，我们说，它还早。   比特币似乎永远都还早，我们永远不舍得卖。 心中没有愿景，或许还能扛过熊市，但绝对守不住牛市。一涨你就会卖的，千万不要不信，48 万哥就...</div></div></div></a><a class="pagination-related" href="/2025/06/21/2025-06-21_03_%E7%AC%AC%E4%B8%89%E7%AB%A0_%E5%9B%A4%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%9A%E4%BD%A0%E7%A6%BB%E8%B4%A2%E5%AF%8C%E8%87%AA%E7%94%B1%E8%BF%98%E6%9C%89%E5%A4%9A%E8%BF%9C%EF%BC%9F/" title="第三章 囤比特币：你离财富自由还有多远？"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-06-21</div><div class="info-item-2">第三章 囤比特币：你离财富自由还有多远？</div></div><div class="info-2"><div class="info-item-1">视频链接：https://youtu.be/kB4cgzqWdfk  哪怕明知囤比特币可以实现财富自由，你可能还是囤不住，因为你不想等，你还想走捷径。  读这篇文章之前，你应该首先认同我前面两篇文章的观点：  《比特币与理想主义》，我们在参与一场社会实验，它存在失败的可能性，但是我们无怨无悔。  《下车太早只因愿景太小》，这场实验的目标很大，如果一切顺利，比特币的价格可能会在 20 年后涨到 1.6 亿人民币。   如果你不认同上述观点，你就没有必要往下读了。 很多人读了《下车太早只因愿景太小》，留言说，我的预测太大胆。这篇文章会告诉你，我 的预测有多么保守。 如果 20 年后比特币可以涨到 1.6 亿元，那么它每年需要涨多少呢？ 我们都知道，比特币的供应每 4 年就会减半，每 4 年供求关系的平衡就会被打破，供应变得 紧缺，而需求仍然持续增加，因此币价会迎来一次暴涨。过去的两次减半，都导致了暴涨。 如果 5 个周期后，也就是 20 年后，比特币可以涨到 1.6 亿元，每个周期需要涨几倍呢？ 我做了两种计算：  一种我称之为“线性增长”（其实数学上并非线性），认为每个周期增长的倍...</div></div></div></a><a class="pagination-related" href="/2025/06/21/2025-06-21_05_%E7%AC%AC%E4%BA%94%E7%AB%A0_%E5%9B%A4%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%9A%E6%89%8B%E6%8F%A1%E7%A7%81%E9%92%A5%E7%9A%84%E5%BF%AB%E6%84%9F/" title="第五章 囤比特币：手握私钥的快感"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-06-21</div><div class="info-item-2">第五章 囤比特币：手握私钥的快感</div></div><div class="info-2"><div class="info-item-1">**视频链接：https://youtu.be/jrEoizaNQms  把财富储存在一串“虚幻的”私钥字符串上，是人类储值方式的重大革命。  如果你认同前面四篇文章的观点：  《比特币与理想主义》我们在参与一场社会实验，它存在失败的可能性，但是我们无怨无悔。 《下车太早只因愿景太小》这场实验的目标很大，如果一切顺利，比特币的价格可能会在20年后涨到1.6亿人民币。 《囤比特币：你离财富自由还有多远？》我们没有其他能耐，只能靠囤积比特币，并耐心地等待属于自己的财富自由。 《囤比特币：冲动、孤独、无聊与矛盾》虽然会经历冲动、孤独、无聊和矛盾等心理考验，但是我们已经做好了准备囤币。  那么接下来，你会遇到一个问题：你到底应该把比特币储存在哪里？ 如果我们囤积黄金，我们可能有两种方式。一种是在银行租个保险柜，把黄金存进去；另一种是在家里买个保险柜，把黄金存进去。答案可能需要视情况而定。 但是，对于囤比特币而言，答案永远只有一个——囤在自己手里。 什么叫囤在自己手里？有且仅有你掌握了能够动用这些比特币的私钥。 需要特别说明的是：  此处特指囤币，而且是长期囤币。如果你只是想炒币，那么你可...</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">EfonWeb3</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">30</div></a><a href="/tags/"><div class="headline">標籤</div><div class="length-num">9</div></a><a href="/categories/"><div class="headline">分類</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://www.youtube.com/@EfonWeb3"><i class="fab fa-youtube"></i><span>订阅</span></a><div class="card-info-social-icons"><a class="social-icon" href="mailto:efonfighting@gmail.com" target="_blank" title=""><i class="Email"></i></a><a class="social-icon" href="https://www.youtube.com/@EfonWeb3" target="_blank" title=""><i class="YouTube"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">关注我的YouTube频道，我们一起学习加密世界！</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目錄</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%B9%E6%8D%AE%E5%AE%89%E5%85%A8%E6%80%A7%E9%9C%80%E6%B1%82%E5%88%86%E7%BA%A7%E7%AE%A1%E7%90%86%E7%A7%81%E9%92%A5"><span class="toc-number">1.</span> <span class="toc-text">根据安全性需求分级管理私钥</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AE%A1%E7%90%86%E7%A7%81%E9%92%A5%E8%80%8C%E4%B8%8D%E6%98%AF%E7%AE%A1%E7%90%86%E9%92%B1%E5%8C%85%E6%96%87%E4%BB%B6"><span class="toc-number">2.</span> <span class="toc-text">管理私钥而不是管理钱包文件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%86%B7%E7%A7%81%E9%92%A5%E7%AE%A1%E7%90%86%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%96%B9%E6%A1%88"><span class="toc-number">3.</span> <span class="toc-text">冷私钥管理的基本方案</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9E%E6%88%98%E4%B9%8B%E5%89%8D%E4%B8%80%E5%AE%9A%E8%A6%81%E6%B5%8B%E8%AF%95"><span class="toc-number">4.</span> <span class="toc-text">实战之前一定要测试</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%9C%80%E8%A6%81%E5%87%A0%E4%B8%AA%E5%A4%87%E4%BB%BD%EF%BC%9F"><span class="toc-number">5.</span> <span class="toc-text">需要几个备份？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%A7%81%E9%92%A5%E6%98%AF%E5%90%A6%E9%9C%80%E8%A6%81%E5%8A%A0%E5%AF%86%EF%BC%9F"><span class="toc-number">6.</span> <span class="toc-text">私钥是否需要加密？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%9C%80%E8%A6%81%E7%AE%A1%E7%90%86%E5%A4%9A%E5%B0%91%E7%A7%81%E9%92%A5%EF%BC%9F"><span class="toc-number">7.</span> <span class="toc-text">需要管理多少私钥？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%98%B2%E8%8C%83%E8%87%AA%E5%B7%B1%E5%87%BA%E6%84%8F%E5%A4%96"><span class="toc-number">8.</span> <span class="toc-text">防范自己出意外</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%98%E6%98%AF%E8%A7%89%E5%BE%97%E5%A4%AA%E9%BA%BB%E7%83%A6%EF%BC%9F"><span class="toc-number">9.</span> <span class="toc-text">还是觉得太麻烦？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8E%E8%AE%B0"><span class="toc-number">10.</span> <span class="toc-text">后记</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2025/10/10/2025-10-10_%E6%98%AF%E5%90%A6%E8%A6%81%E8%B4%B7%E6%AC%BE%E8%B4%AD%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%9F/" title="是否要贷款购买比特币？"><img src="/2025/10/10/2025-10-10_%E6%98%AF%E5%90%A6%E8%A6%81%E8%B4%B7%E6%AC%BE%E8%B4%AD%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%9F/image-20251015212130403.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="是否要贷款购买比特币？"/></a><div class="content"><a class="title" href="/2025/10/10/2025-10-10_%E6%98%AF%E5%90%A6%E8%A6%81%E8%B4%B7%E6%AC%BE%E8%B4%AD%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81%EF%BC%9F/" title="是否要贷款购买比特币？">是否要贷款购买比特币？</a><time datetime="2025-10-10T15:31:28.000Z" title="發表於 2025-10-10 23:31:28">2025-10-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/10/09/2025-10-09_%E7%AC%AC%E5%85%AB%E6%9C%9F%EF%BC%9A%E7%BB%88%E6%9E%81%E5%AE%9E%E6%88%98%EF%BC%81%E6%95%B4%E5%90%88%E6%89%80%E6%9C%89%E6%8C%87%E6%A0%87%EF%BC%8C%E8%BF%9B%E8%A1%8C%E4%B8%80%E6%AC%A1%E5%AE%8C%E6%95%B4%E5%88%86%E6%9E%90/" title="第八期：终极实战！整合所有指标，进行一次完整分析"><img src="/2025/10/09/2025-10-09_%E7%AC%AC%E5%85%AB%E6%9C%9F%EF%BC%9A%E7%BB%88%E6%9E%81%E5%AE%9E%E6%88%98%EF%BC%81%E6%95%B4%E5%90%88%E6%89%80%E6%9C%89%E6%8C%87%E6%A0%87%EF%BC%8C%E8%BF%9B%E8%A1%8C%E4%B8%80%E6%AC%A1%E5%AE%8C%E6%95%B4%E5%88%86%E6%9E%90/image-20251015220315348.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="第八期：终极实战！整合所有指标，进行一次完整分析"/></a><div class="content"><a class="title" href="/2025/10/09/2025-10-09_%E7%AC%AC%E5%85%AB%E6%9C%9F%EF%BC%9A%E7%BB%88%E6%9E%81%E5%AE%9E%E6%88%98%EF%BC%81%E6%95%B4%E5%90%88%E6%89%80%E6%9C%89%E6%8C%87%E6%A0%87%EF%BC%8C%E8%BF%9B%E8%A1%8C%E4%B8%80%E6%AC%A1%E5%AE%8C%E6%95%B4%E5%88%86%E6%9E%90/" title="第八期：终极实战！整合所有指标，进行一次完整分析">第八期：终极实战！整合所有指标，进行一次完整分析</a><time datetime="2025-10-09T15:45:00.000Z" title="發表於 2025-10-09 23:45:00">2025-10-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/10/08/2025-10-08_%E7%AC%AC%E4%B8%83%E6%9C%9F%EF%BC%9A%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E5%9B%9E%E8%B0%83%EF%BC%9A%E6%89%BE%E5%88%B0%E9%9A%90%E8%97%8F%E7%9A%84%E6%94%AF%E6%92%91%E4%B8%8E%E9%98%BB%E5%8A%9B%EF%BC%81/" title="第七期：斐波那契回调：找到隐藏的支撑与阻力！"><img src="/2025/10/08/2025-10-08_%E7%AC%AC%E4%B8%83%E6%9C%9F%EF%BC%9A%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E5%9B%9E%E8%B0%83%EF%BC%9A%E6%89%BE%E5%88%B0%E9%9A%90%E8%97%8F%E7%9A%84%E6%94%AF%E6%92%91%E4%B8%8E%E9%98%BB%E5%8A%9B%EF%BC%81/image-20251015220255225.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="第七期：斐波那契回调：找到隐藏的支撑与阻力！"/></a><div class="content"><a class="title" href="/2025/10/08/2025-10-08_%E7%AC%AC%E4%B8%83%E6%9C%9F%EF%BC%9A%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E5%9B%9E%E8%B0%83%EF%BC%9A%E6%89%BE%E5%88%B0%E9%9A%90%E8%97%8F%E7%9A%84%E6%94%AF%E6%92%91%E4%B8%8E%E9%98%BB%E5%8A%9B%EF%BC%81/" title="第七期：斐波那契回调：找到隐藏的支撑与阻力！">第七期：斐波那契回调：找到隐藏的支撑与阻力！</a><time datetime="2025-10-08T15:45:00.000Z" title="發表於 2025-10-08 23:45:00">2025-10-08</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/10/01/2025-10-01_%E7%AC%AC%E5%85%AD%E6%9C%9F%EF%BC%9AMACD%EF%BC%9A%E6%9C%80%E5%BC%BA%E8%B6%8B%E5%8A%BF%E8%BF%BD%E8%B8%AA%E5%99%A8%EF%BC%8C%E9%87%91%E5%8F%89%E6%AD%BB%E5%8F%89%E5%85%A8%E6%8E%8C%E6%8F%A1%EF%BC%81/" title="第六期：MACD：最强趋势追踪器，金叉死叉全掌握！"><img src="/2025/10/01/2025-10-01_%E7%AC%AC%E5%85%AD%E6%9C%9F%EF%BC%9AMACD%EF%BC%9A%E6%9C%80%E5%BC%BA%E8%B6%8B%E5%8A%BF%E8%BF%BD%E8%B8%AA%E5%99%A8%EF%BC%8C%E9%87%91%E5%8F%89%E6%AD%BB%E5%8F%89%E5%85%A8%E6%8E%8C%E6%8F%A1%EF%BC%81/image-20251015220205408.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="第六期：MACD：最强趋势追踪器，金叉死叉全掌握！"/></a><div class="content"><a class="title" href="/2025/10/01/2025-10-01_%E7%AC%AC%E5%85%AD%E6%9C%9F%EF%BC%9AMACD%EF%BC%9A%E6%9C%80%E5%BC%BA%E8%B6%8B%E5%8A%BF%E8%BF%BD%E8%B8%AA%E5%99%A8%EF%BC%8C%E9%87%91%E5%8F%89%E6%AD%BB%E5%8F%89%E5%85%A8%E6%8E%8C%E6%8F%A1%EF%BC%81/" title="第六期：MACD：最强趋势追踪器，金叉死叉全掌握！">第六期：MACD：最强趋势追踪器，金叉死叉全掌握！</a><time datetime="2025-10-01T15:45:00.000Z" title="發表於 2025-10-01 23:45:00">2025-10-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/09/30/2025-09-30_%E7%AC%AC%E4%BA%94%E6%9C%9F%EF%BC%9A%E5%B8%83%E6%9E%97%E5%B8%A6%EF%BC%9A%E6%89%BE%E5%88%B0%E4%BB%B7%E6%A0%BC%E7%9A%84%E2%80%9C%E8%BE%B9%E7%95%8C%E2%80%9D%EF%BC%8C%E5%88%A4%E6%96%AD%E8%A1%8C%E6%83%85%E6%B3%A2%E5%8A%A8%EF%BC%81/" title="第五期：布林带：找到价格的“边界”，判断行情波动！"><img src="/2025/09/30/2025-09-30_%E7%AC%AC%E4%BA%94%E6%9C%9F%EF%BC%9A%E5%B8%83%E6%9E%97%E5%B8%A6%EF%BC%9A%E6%89%BE%E5%88%B0%E4%BB%B7%E6%A0%BC%E7%9A%84%E2%80%9C%E8%BE%B9%E7%95%8C%E2%80%9D%EF%BC%8C%E5%88%A4%E6%96%AD%E8%A1%8C%E6%83%85%E6%B3%A2%E5%8A%A8%EF%BC%81/image-20251015220144892.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="第五期：布林带：找到价格的“边界”，判断行情波动！"/></a><div class="content"><a class="title" href="/2025/09/30/2025-09-30_%E7%AC%AC%E4%BA%94%E6%9C%9F%EF%BC%9A%E5%B8%83%E6%9E%97%E5%B8%A6%EF%BC%9A%E6%89%BE%E5%88%B0%E4%BB%B7%E6%A0%BC%E7%9A%84%E2%80%9C%E8%BE%B9%E7%95%8C%E2%80%9D%EF%BC%8C%E5%88%A4%E6%96%AD%E8%A1%8C%E6%83%85%E6%B3%A2%E5%8A%A8%EF%BC%81/" title="第五期：布林带：找到价格的“边界”，判断行情波动！">第五期：布林带：找到价格的“边界”，判断行情波动！</a><time datetime="2025-09-30T15:45:00.000Z" title="發表於 2025-09-30 23:45:00">2025-09-30</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"></div><div class="footer_custom_text">© 2025 EfonWeb3 ｜ 匯集財富底層邏輯</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="閱讀模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日夜模式切換"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="單欄和雙欄切換"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="設定"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目錄"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到頂端"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.1"></script><script src="/js/main.js?v=5.5.1"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
